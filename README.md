@@ -41,10 +41,3 @@ The application is built using the MERN stack:
 
 ### Administrator
 1.  **Vendor Verification:** Validate and approve new vendor registrations to ensure security.
-
-## Installation Guide
-
-### Prerequisites
-Ensure you have the following installed:
-* Node.js (v14+)
-* MongoDB (Running locally or via Atlas)
