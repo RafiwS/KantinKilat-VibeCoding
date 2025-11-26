@@ -5,8 +5,7 @@ KantinKilat is a web-based food ordering platform designed to digitize the trans
 **Submitted by:**
 * **Name:** Ananda Widi Alrafi
 * **NRP:** 5027241067
-* **Institution:** Institut Teknologi Sepuluh Nopember (ITS)
-* **Event:** Vibe Coding Week
+* **Tugas:** Vibe Coding Week
 
 ---
 
