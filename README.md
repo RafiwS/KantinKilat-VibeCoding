@@ -1,16 +1,50 @@
-# React + Vite
+# KantinKilat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+KantinKilat is a web-based food ordering platform designed to digitize the transaction process in university canteens. The system minimizes queueing times by implementing a pre-order and cashless payment workflow.
 
-Currently, two official plugins are available:
+**Submitted by:**
+* **Name:** Ananda Widi Alrafi
+* **NRP:** 5027241067
+* **Institution:** Institut Teknologi Sepuluh Nopember (ITS)
+* **Event:** Vibe Coding Week
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The primary objective of this application is to solve the bottleneck issue at campus canteens during peak hours. Currently, students spend significant time queuing to order and pay. KantinKilat allows users to order food from available stalls, upload payment proofs (QRIS), and track their order status in real-time. Users only approach the counter when the order status is updated to "Ready for Pickup".
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application is built using the MERN stack:
+
+* **Frontend:** React.js, Tailwind CSS, Axios, React Router.
+* **Backend:** Node.js, Express.js.
+* **Database:** MongoDB (Mongoose ODM).
+* **Authentication:** JSON Web Token (JWT) & Bcrypt.
+* **File Storage:** Multer (Local storage for images).
+
+## Features
+
+### Student (User)
+1.  **Dashboard:** View list of canteen stalls and available menus.
+2.  **Search & Filter:** Search for specific menu items or filter by canteen.
+3.  **Ordering System:** Add items to cart with quantity adjustment.
+4.  **Payment:** Upload payment proof (image) for verification.
+5.  **Order Tracking:** Monitor status (Pending -> Processing -> Ready -> Completed).
+6.  **Order History:** View past transactions.
+
+### Vendor (Seller)
+1.  **Vendor Dashboard:** Manage incoming orders and update order status.
+2.  **Menu Management:** Add, edit, and delete menu items (includes image upload).
+3.  **Shop Profile:** Configure shop name, location, and QRIS image.
+
+### Administrator
+1.  **Vendor Verification:** Validate and approve new vendor registrations to ensure security.
+
+## Installation Guide
+
+### Prerequisites
+Ensure you have the following installed:
+* Node.js (v14+)
+* MongoDB (Running locally or via Atlas)
