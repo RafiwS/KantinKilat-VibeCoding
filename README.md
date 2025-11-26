@@ -1,4 +1,4 @@
-# KantinKilat
+<img width="1870" height="959" alt="Screenshot 2025-11-26 173015" src="https://github.com/user-attachments/assets/cd49bdf5-c89b-4e6c-963a-f25aad0d7c26" /># KantinKilat
 
 KantinKilat is a web-based food ordering platform designed to digitize the transaction process in university canteens. The system minimizes queueing times by implementing a pre-order and cashless payment workflow.
 
@@ -41,3 +41,12 @@ The application is built using the MERN stack:
 
 ### Administrator
 1.  **Vendor Verification:** Validate and approve new vendor registrations to ensure security.
+
+
+<img width="1870" height="959" alt="Screenshot 2025-11-26 173015" src="https://github.com/user-attachments/assets/906ce084-a1c6-4597-a111-ecf9199be2ec" />
+
+<img width="1876" height="964" alt="Screenshot 2025-11-26 173029" src="https://github.com/user-attachments/assets/cdbf4915-83a7-44dc-bd7e-c60595ce5910" />
+
+
+
+
