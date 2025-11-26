@@ -42,6 +42,10 @@ The application is built using the MERN stack:
 ### Administrator
 1.  **Vendor Verification:** Validate and approve new vendor registrations to ensure security.
 
+<img width="1875" height="961" alt="Screenshot 2025-11-26 174533" src="https://github.com/user-attachments/assets/8b2bb31f-efef-4268-afa3-c3160a864fc1" />
+
+<img width="1875" height="965" alt="Screenshot 2025-11-26 174543" src="https://github.com/user-attachments/assets/8e9a602e-a57a-4187-8ff9-15067d0c15f1" />
+
 
 
 
